@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>McDonald's Burger Beef Price Calculator</title>
+    <title>Keto Burgers - Weight and Price of Beef and Keto-Ingredients in Fast Food Chain Burgers</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
@@ -31,107 +31,127 @@
             margin-top: 20px;
             padding: 10px;
         }
+        .chain-logo {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+        .right-align {
+            text-align: right;
+        }
     </style>
 </head>
 <body>
-    <h1>McDonald's Burger Beef Price Calculator</h1>
-    <p>Compare the effective price per kg of beef for different McDonald's burgers.</p>
+    <h1>Keto Burgers - Weight and Price of Beef and Keto-Ingredients in Fast Food Chain Burgers</h1>
+    <p>Compare the effective price per kg of beef for different fast food chain burgers.</p>
     <table>
         <tr>
+            <th>Chain</th>
             <th>Burger</th>
-            <th>Price ($)</th>
-            <th>Patty Weight (g)</th>
-            <th>Number of Patties</th>
-            <th>Total Beef (g)</th>
-            <th>Price per kg of Beef ($)</th>
+            <th>AU$</th>
+            <th>Per patty (g)</th>
+            <th>Patties</th>
+            <th>Beef (g)</th>
+            <th class="right-align">$/kg</th>
         </tr>
         <tr>
+            <td><img src="/mcdonalds.png" alt="McDonald's logo" class="chain-logo"/></td>
             <td>Big Mac</td>
             <td><input type="number" class="price" value="7.90" step="0.01"></td>
             <td><input type="number" class="weight" value="45" step="0.1"></td>
             <td><input type="number" class="count" value="2"></td>
             <td class="total-beef"></td>
-            <td class="price-per-kg"></td>
+            <td class="price-per-kg right-align"></td>
         </tr>
         <tr>
+            <td><img src="/mcdonalds.png" alt="McDonald's logo" class="chain-logo"/></td>
             <td>Double Big Mac</td>
             <td><input type="number" class="price" value="9.70" step="0.01"></td>
             <td><input type="number" class="weight" value="45" step="0.1"></td>
             <td><input type="number" class="count" value="4"></td>
             <td class="total-beef"></td>
-            <td class="price-per-kg"></td>
+            <td class="price-per-kg right-align"></td>
         </tr>
         <tr>
+            <td><img src="/mcdonalds.png" alt="McDonald's logo" class="chain-logo"/></td>
             <td>Quarter Pounder</td>
             <td><input type="number" class="price" value="8.00" step="0.01"></td>
             <td><input type="number" class="weight" value="113" step="0.1"></td>
             <td><input type="number" class="count" value="1"></td>
             <td class="total-beef"></td>
-            <td class="price-per-kg"></td>
+            <td class="price-per-kg right-align"></td>
         </tr>
         <tr>
+            <td><img src="/mcdonalds.png" alt="McDonald's logo" class="chain-logo"/></td>
             <td>McFeast</td>
             <td><input type="number" class="price" value="8.55" step="0.01"></td>
             <td><input type="number" class="weight" value="45" step="0.1"></td>
             <td><input type="number" class="count" value="1"></td>
             <td class="total-beef"></td>
-            <td class="price-per-kg"></td>
+            <td class="price-per-kg right-align"></td>
         </tr>
         <tr>
+            <td><img src="/mcdonalds.png" alt="McDonald's logo" class="chain-logo"/></td>
             <td>Cheeseburger</td>
             <td><input type="number" class="price" value="4.95" step="0.01"></td>
             <td><input type="number" class="weight" value="45" step="0.1"></td>
             <td><input type="number" class="count" value="1"></td>
             <td class="total-beef"></td>
-            <td class="price-per-kg"></td>
+            <td class="price-per-kg right-align"></td>
         </tr>
         <tr>
+            <td><img src="/mcdonalds.png" alt="McDonald's logo" class="chain-logo"/></td>
             <td>Double Quarter Pounder</td>
             <td><input type="number" class="price" value="10.00" step="0.01"></td>
             <td><input type="number" class="weight" value="113" step="0.1"></td>
             <td><input type="number" class="count" value="2"></td>
             <td class="total-beef"></td>
-            <td class="price-per-kg"></td>
+            <td class="price-per-kg right-align"></td>
         </tr>
         <tr>
+            <td><img src="/mcdonalds.png" alt="McDonald's logo" class="chain-logo"/></td>
             <td>Hamburger</td>
             <td><input type="number" class="price" value="2.00" step="0.01"></td>
             <td><input type="number" class="weight" value="45" step="0.1"></td>
             <td><input type="number" class="count" value="1"></td>
             <td class="total-beef"></td>
-            <td class="price-per-kg"></td>
+            <td class="price-per-kg right-align"></td>
         </tr>
         <tr>
+            <td><img src="/mcdonalds.png" alt="McDonald's logo" class="chain-logo"/></td>
             <td>Double Cheeseburger</td>
             <td><input type="number" class="price" value="6.50" step="0.01"></td>
             <td><input type="number" class="weight" value="45" step="0.1"></td>
             <td><input type="number" class="count" value="2"></td>
             <td class="total-beef"></td>
-            <td class="price-per-kg"></td>
+            <td class="price-per-kg right-align"></td>
         </tr>
         <tr>
+            <td><img src="/mcdonalds.png" alt="McDonald's logo" class="chain-logo"/></td>
             <td>Triple Cheeseburger</td>
             <td><input type="number" class="price" value="8.30" step="0.01"></td>
             <td><input type="number" class="weight" value="45" step="0.1"></td>
             <td><input type="number" class="count" value="3"></td>
             <td class="total-beef"></td>
-            <td class="price-per-kg"></td>
+            <td class="price-per-kg right-align"></td>
         </tr>
         <tr>
+            <td><img src="/mcdonalds.png" alt="McDonald's logo" class="chain-logo"/></td>
             <td>BBQ Bacon Angus</td>
             <td><input type="number" class="price" value="10.75" step="0.01"></td>
             <td><input type="number" class="weight" value="113" step="0.1"></td>
             <td><input type="number" class="count" value="1"></td>
             <td class="total-beef"></td>
-            <td class="price-per-kg"></td>
+            <td class="price-per-kg right-align"></td>
         </tr>
         <tr>
+            <td><img src="/mcdonalds.png" alt="McDonald's logo" class="chain-logo"/></td>
             <td>Classic Angus</td>
             <td><input type="number" class="price" value="10.00" step="0.01"></td>
             <td><input type="number" class="weight" value="113" step="0.1"></td>
             <td><input type="number" class="count" value="1"></td>
             <td class="total-beef"></td>
-            <td class="price-per-kg"></td>
+            <td class="price-per-kg right-align"></td>
         </tr>
     </table>
     <button onclick="calculateAll()">Calculate All</button>
